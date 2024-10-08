@@ -22,7 +22,7 @@ Sengupta, S.; Zhu, Y.; Hamady, M.; Xu, X.Y. Evaluating the Haemodynamic Performa
 | **Quantity**         | **Equation** | **Dimension** | **Description** |
 |----------------------|--------------|--------------|--------------|
 | **Flow Asymmetry** | $$\displaystyle \mathrm{Flow_{asymmetry}} = 100 \times {\lVert \vec{x}_ {v_{\rm max, 15}} - \vec{x}_{\rm plane}\rVert} / R _{\rm eq}$$ | non-dim | Level of flow eccentricity quantified by the Euclidian distance between the centroid of a plane and the centroid of top 15% of velocity of on that plane, normalised by the equivalant radius  |
-| **Flow Dispersion** | $$\displaystyle \mathrm{Flow_{dispersion}} = 100 \times A_ {v_{\rm max, 15}} / A_ {\rm plane}\times $$ | non-dim | Level of flow dispersion quantified by the ratio of area of top 15% of velocity on a plane and the plane area  |
+| **Flow Dispersion** | $$\displaystyle \mathrm{Flow_{dispersion}} = 100 \times A_ {v_{\rm max, 15}} / A_ {\rm plane}$$ | non-dim | Level of flow dispersion quantified by the ratio of area of top 15% of velocity on a plane and the plane area  |
 
 <img src="https://github.com/user-attachments/assets/fa8ed0dd-2617-4acd-85ca-5f76cc9b48f0" width="48%">
 
