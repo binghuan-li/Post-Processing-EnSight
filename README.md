@@ -1,4 +1,6 @@
-## retrieve_vars.py
+## ws_utils.py
+
+Calculating wall shear related haemodynamic matrices.
 
 | **Quantity**         | **Equation** | **Dimension** | **Description** |
 |----------------------|--------------|--------------|--------------|
