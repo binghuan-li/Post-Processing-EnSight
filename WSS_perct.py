@@ -25,4 +25,5 @@ part = ensight.objs.core.PARTS[setup['wall']][0]
 coords = ensight.objs.core.VARIABLES['Coordinates'][0]
 wss = part.get_values([coords,  setup['wall_shear']], activate=1) # returned as a dict
 wss = np.linalg.norm(wss[setup['wall_shear']], axis=1) # unpack and calc the mag
-print(f'\t --->The 99 percentile of wss is {np.percentile(wss, 0.99)}')
+
+print(f'\t --->The 99 percentile of wss is {np.percentile(wss, 99)}')
