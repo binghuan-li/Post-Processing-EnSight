@@ -25,4 +25,5 @@ part = ensight.objs.core.PARTS[setup['wall']][0]
 coords = ensight.objs.core.VARIABLES['Coordinates'][0]
 ws = part.get_values([coords,  setup['stress']], activate=1)
 ws = ws[setup['stress']]
-print(f'\t --->The 99 percentile of max principle stress is {np.percentile(ws, 0.99)}')
+
+print(f'\t --->The 99 percentile of max principle stress is {np.percentile(ws, 99)}')
