@@ -2,7 +2,7 @@
 
 Automate the post-processing of haemodynamic simulations in ANSYS EnSight. Scripted based on the syntax standard published in ANSYS EnSight Interface Manual 23R2. 
 
-## `ws_utils.py`
+## `Shear.py`
 
 Calculating wall shear related haemodynamic matrices.
 
@@ -18,7 +18,7 @@ Calculating wall shear related haemodynamic matrices.
 Reference
 > Sengupta, S.; Zhu, Y.; Hamady, M.; Xu, X.Y. Evaluating the Haemodynamic Performance of Endografts for Complex Aortic Arch Repair. Bioengineering 2022, 9, 573. [https://doi.org/10.3390/bioengineering9100573](https://doi.org/10.3390/bioengineering9100573)
 
-### `forces.py`
+### `DispForces.py`
 | **Quantity**         | **Equation** | **Dimension** | **Description** |
 |----------------------|--------------|--------------|--------------|
 | **Displacement Force** | $$\displaystyle F_{d, i} = F_{p, i} + F_{\mathrm{wss}, i} = \int \limits_{S} p \cdot n_i \ \mathrm{d}S + \int \limits_{S} \left( - \mu \frac{\partial u}{\partial n_i} \right) \ \mathrm{d}S$$ | [N] | Time dependent displacement force due to pressure and friction exerted by the flow of blood on the walls |
@@ -31,5 +31,4 @@ Reference
 | **Flow Dispersion** | $$\displaystyle \mathrm{Flow_{dispersion}} = 100 \times A_ {v_{\rm max, 15}} / A_ {\rm plane}$$ | non-dim | Level of flow dispersion quantified by the ratio of area of top 15% of velocity on a plane and the plane area  |
 
 >Zhu, Y., Armour, C., Li, B. et al. A combined 4D flow MR imaging and fluid–structure interaction analysis of ascending thoracic aortic aneurysms. Biomech Model Mechanobiol 24, 829–844 (2025). [https://doi.org/10.1007/s10237-025-01939-6](https://doi.org/10.1007/s10237-025-01939-6)
-
 
