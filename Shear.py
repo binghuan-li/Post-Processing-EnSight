@@ -1,5 +1,5 @@
 '''
-ws_utils.py
+Shear.py
 
 load this script in ANSYS EnSight to calcuate the haemodynamic variables.
 
